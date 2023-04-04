@@ -5,13 +5,14 @@
 ## 安装 Eslint 及其插件
 
 ```bash
-npm i -D eslint@8.37.0 eslint-plugin-vue@9.10.0 @typescript-eslint/eslint-plugin@5.57.0 @typescript-eslint/parser@5.57.0 vite-plugin-eslint@1.8.1 eslint-config-prettier@8.8.0 eslint-plugin-prettier@4.2.1
-```
-
-`uninstall`
-
-```bash
-npm uninstall eslint eslint-plugin-vue @typescript-eslint/eslint-plugin @typescript-eslint/parser vite-plugin-eslint eslint-config-prettier eslint-plugin-prettier
+npm i -D \
+eslint@8.37.0 \
+eslint-plugin-vue@9.10.0 \
+@typescript-eslint/eslint-plugin@5.57.0 \
+@typescript-eslint/parser@5.57.0 \
+vite-plugin-eslint@1.8.1 \
+eslint-config-prettier@8.8.0 \
+eslint-plugin-prettier@4.2.1
 ```
 
 ## 配置 Eslint

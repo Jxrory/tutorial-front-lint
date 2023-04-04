@@ -15,19 +15,6 @@ stylelint-config-standard-scss@7.0.1
 
 NOTICE: `stylelint-config-prettier` 目前还不支持 `stylelint@15`
 
-uninstall:
-
-```bash
-npm uninstall \
-stylelint \
-stylelint-config-html \
-stylelint-config-recess-order \
-stylelint-config-recommended-scss \
-stylelint-config-recommended-vue \
-stylelint-config-standard \
-stylelint-config-standard-scss
-```
-
 ## 配置
 
 `.stylelintrc.js`配置
