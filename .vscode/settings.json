@@ -36,5 +36,7 @@
 	},
 	"[less]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+
+	"cSpell.words": ["doclock", "iconify", "pinia", "stylelint", "Vetur", "Vite", "vuejs"]
 }
