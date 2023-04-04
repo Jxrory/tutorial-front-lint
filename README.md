@@ -1,40 +1,28 @@
-# vue3-learning
+# 前端规范构建教程
 
-This template should help get you started developing with Vue 3 in Vite.
+学习如何构建前端规范, 涉及的工具:
 
-## Recommended IDE Setup
+- `editorconfig`: 编辑器配置, 对应的 commit: [a04c3c091ab95cabeb02d3189c5354542eb06db9](https://github.com/Jxrory/tutorial-front-lint/commit/a04c3c091ab95cabeb02d3189c5354542eb06db9);
+- `prettier`: 代码格式化工具, 对应的 commit: [b2b147f48a3f1db8deb3cddbfb8d63665672963d](https://github.com/Jxrory/tutorial-front-lint/commit/b2b147f48a3f1db8deb3cddbfb8d63665672963d);
+- `eslint`: 代码规范检查, 对应的 commit: [baf4a15721ea9512fdba1c958155751c27c5baf8](https://github.com/Jxrory/tutorial-front-lint/commit/baf4a15721ea9512fdba1c958155751c27c5baf8);
+- `stylelint`: 样式规范检查, 对应的 commit: [3cc5b9aca02aec712e0afe42685c90529213e5da](https://github.com/Jxrory/tutorial-front-lint/commit/3cc5b9aca02aec712e0afe42685c90529213e5da);
+- `lint-staged` & `husky`: git 提交 hook, 对应的 commit: [db0385ac95fc1fa4fcb791e4b9ef292690aaccb0](https://github.com/Jxrory/tutorial-front-lint/commit/db0385ac95fc1fa4fcb791e4b9ef292690aaccb0)
+- `cz-git` & `commitlint`: 规范 commit 提交信息, 对应 commit: [24a6b1e53070b60d7ebc1127b7823f177de3c445](https://github.com/Jxrory/tutorial-front-lint/commit/24a6b1e53070b60d7ebc1127b7823f177de3c445)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 推荐 IDEA
 
-## Type Support for `.vue` Imports in TS
+- [VSCode](https://code.visualstudio.com/)
+- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur)
+- [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## 项目安装与运行
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 热部署运行
 
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
